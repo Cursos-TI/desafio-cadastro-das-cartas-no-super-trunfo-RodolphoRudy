@@ -6,19 +6,19 @@ int main(){
     char nome[50];
 
     printf("digite sua idade: \n");
-    scanf("%d", &36);
+    scanf("%d", &idade);
 
     printf("digite sua altura: \n");
-    scanf("%f", &1.86);
+    scanf("%f", &altura);
 
     printf("digite seu nome: \n");
-    scanf("%s" , &Rodolpho);
+    scanf("%s" , &nome);
 
     printf("digite sua matricula: \n");
-    scanf("%d", &0001);
+    scanf("%d", &matricula);
 
-    printf("nome do aluno: %s - matricula: %d \n", Rodolpho, 0001);
-      printf("idade: %d - altura: %f" , 36, 1.86);
+    printf("nome do aluno: %s - matricula: %d \n", nome, matricula);
+      printf("idade: %d - altura: %f" , idade, altura);
 
     return 0; 
  

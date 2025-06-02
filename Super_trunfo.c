@@ -75,6 +75,13 @@ int main(){
     printf("Pontos Turisticos 1 > 2: %s\n", (pontosTuristicos1 > pontosTuristicos2)? "carta1 vence" : "carta2 vence");
     printf("Super Poder 1 > 2: %s\n", (superPoder1 > superPoder2)? "carta1 vence" : "carta2 vence");
 
+     if(area1 > area2) {
+        // bloco do codigo executado se a condição for verdadeira
+        printf("a carta 1 vence a carta 2\n");
+    }else {
+        //bloco do codigo executado se a condição for falsa
+        printf("a carta 2 vence a carta 1\n");}
+
    
     return 0;
 
